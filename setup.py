@@ -8,8 +8,9 @@ except ImportError:
 setup(
     name='httpie-xsisip',
     description='Broadsoft XSI SIP auth plugin for HTTPie.',
+    long_description_content_type="text/markdown; charset=UTF-8; variant=GFM",
     long_description=open('README.md').read().strip(),
-    version='1.0.0',
+    version='1.0.2',
     author='Pietro Bertera',
     author_email='pietro@bertera.it',
     license='BSD',
